@@ -54,6 +54,28 @@ class FinanceAI {
       throw new Error(`Customer with ID ${customerId} not found`);
     }
   }
+
+  // Real-time market analysis and alerts
+  realTimeMarketAnalysis(marketData) {
+    // Implement real-time market analysis logic here
+    console.log('Performing real-time market analysis...');
+  }
+
+  sendMarketAlerts(alertData) {
+    // Implement market alert sending logic here
+    console.log('Sending market alerts...');
+  }
+
+  // Personalized financial advice
+  providePersonalizedFinancialAdvice(customerId) {
+    const customerData = this.customers[customerId];
+    if (customerData) {
+      // Implement personalized financial advice logic here
+      console.log(`Providing personalized financial advice for customer ${customerId}`);
+    } else {
+      throw new Error(`Customer with ID ${customerId} not found`);
+    }
+  }
 }
 
 module.exports = FinanceAI;

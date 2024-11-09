@@ -33,4 +33,26 @@ financeAI.initialize();
 educationAI.initialize();
 simulationEnvironment.initialize();
 
+// Initialize new methods and systems
+agentCommunicator.setEncryptionKey('new_secure_key');
+educationAI.adaptiveLearning('studentId');
+educationAI.recommendLearningResources('studentId');
+financeAI.realTimeMarketAnalysis('marketData');
+financeAI.sendMarketAlerts('alertData');
+financeAI.providePersonalizedFinancialAdvice('customerId');
+healthcareAI.predictiveAnalytics('patientId');
+healthcareAI.remotePatientMonitoring('patientId');
+errorHandler.proactiveErrorDetection();
+errorHandler.automatedErrorReporting(new Error('Sample error'));
+performanceMonitor.monitorFrameworkPerformance();
+performanceMonitor.optimizePerformance();
+resourceAllocator.prioritizeResourceAllocation('agentId', { resourceId: 1 });
+resourceAllocator.handleResourceAllocationFailure('agentId', { resourceId: 1 });
+securityManager.useSecureCommunication('TLS');
+securityManager.conductSecurityAudit();
+simulationEnvironment.addScenario({ name: 'Test Scenario', execute: () => {} });
+simulationEnvironment.runSimulation();
+taskScheduler.addTask({ priority: 1, execute: () => {} });
+taskScheduler.executeTasks();
+
 console.log('Agentic AI Framework initialized successfully.');

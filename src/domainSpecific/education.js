@@ -56,6 +56,26 @@ class EducationAI {
       throw new Error(`Student with ID ${studentId} not found`);
     }
   }
+
+  adaptiveLearning(studentId) {
+    const studentData = this.students[studentId];
+    if (studentData) {
+      // Implement adaptive learning logic based on student performance
+      console.log(`Adaptive learning for student ${studentId}`);
+    } else {
+      throw new Error(`Student with ID ${studentId} not found`);
+    }
+  }
+
+  recommendLearningResources(studentId) {
+    const studentData = this.students[studentId];
+    if (studentData) {
+      // Implement recommendation system for personalized learning resources
+      console.log(`Recommending learning resources for student ${studentId}`);
+    } else {
+      throw new Error(`Student with ID ${studentId} not found`);
+    }
+  }
 }
 
 module.exports = EducationAI;
